@@ -70,7 +70,8 @@ footer {
 }
 
 .info p {
-  margin: 10px;
+  margin: 20px;
+  padding: 10px 15px;
   border: 1px solid bisque;
   font-family: cursive;
   border-radius: 10px;
