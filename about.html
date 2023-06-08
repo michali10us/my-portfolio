@@ -4,22 +4,84 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
     <title>Document</title>
   </head>
   <body>
     <a href="index.html#homepage">Back to homepage</a>
     <h1>About Me</h1>
     <h3>Front-end developer, based in the bay area</h3>
-    <p>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui, voluptates!
-      Saepe fugiat quisquam aliquam possimus quos assumenda eos! Ea neque
-      fugiat, labore adipisci non quidem modi excepturi! Esse, tenetur debitis.
-    </p>
-    <p>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente
-      molestias eius minima, fugiat ut adipisci veniam unde dolorem in deleniti
-      modi sit dolor, laudantium quidem dolores, et officiis assumenda rerum?
-    </p>
-    <footer id="about">Contat me <br />michali10us@gmail.con</footer>
+    <div class="info">
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui,
+        voluptates! Saepe fugiat quisquam aliquam possimus quos assumenda eos!
+        Ea neque fugiat, labore adipisci non quidem modi excepturi! Esse,
+        tenetur debitis.
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente
+        molestias eius minima, fugiat ut adipisci veniam unde dolorem in
+        deleniti modi sit dolor, laudantium quidem dolores, et officiis
+        assumenda rerum?
+      </p>
+    </div>
+    <footer id="about">
+      Contat me<br />
+      <a href="mailto: michali10us@gmail.com">michali10us@gmail.com</a>
+    </footer>
   </body>
+
+  <style>
+    body {
+      margin: 60px;
+    }
+
+    h1,
+    h3 {
+      text-align: center;
+      margin: 0;
+    }
+
+    a {
+      display: block;
+      text-align: center;
+      font-size: 20px;
+    }
+
+    h1 {
+      font-size: 80px;
+      font-family: Comic Sans MS, Comic Sans, cursive;
+    }
+
+    h3 {
+      font-size: 30px;
+      font-family: cursive;
+      font-weight: 500;
+    }
+
+    footer {
+      font-size: 30px;
+      text-align: center;
+      margin-top: 35px;
+      font-family: cursive;
+    }
+    .info {
+      display: flex;
+    }
+
+    .info p {
+      margin: 40px 100px 20px 40px;
+      border: 1px solid bisque;
+      font-family: cursive;
+      border-radius: 10px;
+      font-size: 20px;
+      background-color: #f5f2fe;
+    }
+
+    #contact a {
+      text-decoration: none;
+      font-size: 30px;
+      margin-top: 10px;
+    }
+  </style>
 </html>
