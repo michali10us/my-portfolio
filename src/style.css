@@ -1,3 +1,8 @@
+:root {
+  --font-font-family: cursive;
+  --main-color: blueviolet;
+}
+
 body {
   margin: 60px auto;
   max-width: 800px;
@@ -11,7 +16,7 @@ h3 {
 
 h2 {
   font-size: 36px;
-  font-family: cursive;
+  font-family: var(--font-font-family);
   text-align: center;
 }
 
@@ -28,15 +33,15 @@ h1 {
 
 h3 {
   font-size: 30px;
-  font-family: cursive;
+  font-family: var(--font-font-family);
   font-weight: 500;
 }
 
 footer {
-  font-size: 30px;
+  font-size: 28px;
   text-align: center;
   margin-top: 35px;
-  font-family: cursive;
+  font-family: var(--font-font-family);
 }
 
 .btn-links {
@@ -45,7 +50,7 @@ footer {
 }
 
 .btn-links a {
-  font-family: cursive;
+  font-family: var(--font-font-family);
   padding: 20px 30px;
   text-align: center;
   margin: 40px 30px;
@@ -55,24 +60,22 @@ footer {
 }
 
 .contact-link {
-  background-color: blueviolet;
+  background-color: var(--main-color);
   color: white;
 }
 .about-link {
-  color: blueviolet;
+  color: var(--main-color);
   background-color: white;
-  border: 1px solid blueviolet;
+  border: 1px solid var(--main-color);
 }
 
 .info {
   display: flex;
-  padding: 30px 0;
 }
 
 .info p {
-  margin: 20px;
-  padding: 10px 15px;
-  border: 1px solid bisque;
+  margin: 30px;
+  padding: 10px 20px;
   font-family: cursive;
   border-radius: 10px;
   font-size: 20px;
@@ -81,6 +84,6 @@ footer {
 
 #contact a {
   text-decoration: none;
-  font-size: 30px;
+  font-size: 25px;
   margin-top: 10px;
 }
