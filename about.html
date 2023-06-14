@@ -4,28 +4,74 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>Document</title>
   </head>
   <body>
-    <a href="index.html#homepage">Back to homepage</a>
-    <h1>About Me</h1>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Michal</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html#contact-me">Contact me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--     <a href="index.html#homepage">Back to homepage</a> -->
+    <h1 id="about">About Me</h1>
     <h3>Front-end developer, based in the bay area</h3>
-    <div class="info">
-      <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui,
-        voluptates! Saepe fugiat quisquam aliquam possimus quos assumenda eos!
-        Ea neque fugiat, labore adipisci non quidem modi excepturi! Esse,
-        tenetur debitis.
-      </p>
-      <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente
-        molestias eius minima, fugiat ut adipisci veniam unde dolorem in
-        deleniti modi sit dolor, laudantium quidem dolores, et officiis
-        assumenda rerum?
-      </p>
+    <br />
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia
+      accusamus at consequuntur accusantium cum exercitationem nulla dolorem
+      deleniti aut aliquid. Facilis aliquid officia natus exercitationem facere,
+      quos eos beatae. Omnis.
+    </p>
+    <div class="container">
+      <div class="row">
+        <div class="col-4">
+          <img src="images/yoga.png" class="img-fluid" />
+        </div>
+        <div class="col-4">
+          <img src="images/weather.png" class="img-fluid" />
+        </div>
+        <div class="col-4">
+          <img src="images/yogurt.png" class="img-fluid" />
+        </div>
+      </div>
     </div>
-    <footer id="about">
+
+    <footer id="contact-me">
       Contat me<br />
       <a href="mailto: michali10us@gmail.com">michali10us@gmail.com</a>
     </footer>
