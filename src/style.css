@@ -3,22 +3,6 @@
   --main-color: blueviolet;
 }
 
-@media (max-width: 576px) {
-  h2 {
-    font-size: 32px;
-  }
-  h1 {
-    font-size: 40px;
-  }
-  h3 {
-    font-size: 20px;
-    opacity: 0.6;
-  }
-  .btn-links a {
-    padding: 15px;
-  }
-}
-
 h1,
 h3 {
   text-align: center;
@@ -122,4 +106,36 @@ footer {
   margin: 0 auto;
   padding: 0 auto;
   margin-bottom: 30px;
+}
+
+@media (max-width: 576px) {
+  h2 {
+    font-size: 32px;
+  }
+  h1 {
+    font-size: 45px;
+  }
+  h3 {
+    font-size: 24px;
+    opacity: 0.6;
+  }
+  .btn-links a {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 576px) {
+  .yogurt-app,
+  .weather-app,
+  .yoga-app {
+    width: 100%;
+  }
+
+  .prim-link {
+    display: block;
+    margin: 20px auto;
+    width: 75%;
+    float: none;
+    font-size: 16px;
+  }
 }
