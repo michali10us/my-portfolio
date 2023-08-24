@@ -59,8 +59,8 @@ footer {
 }
 
 .launch-link {
-  display: block;
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 .launch-app {
   font-family: var(--font-font-family);
